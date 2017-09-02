@@ -3,7 +3,7 @@
 Example template for building and testing golang project.
 
 ## Prerequisite
-1. Read about where to put the code [here](https://golang.org/doc/code.html). It is very important that the code is in the right place.
+1. Read about where to put the source code [here](https://golang.org/doc/code.html). It is very important that the source is in the right place for Go to work correctly.
 1. Read about the (very confusing) state of [package management](https://github.com/golang/go/wiki/PackageManagementTools) in go.
 
 ## Tools
