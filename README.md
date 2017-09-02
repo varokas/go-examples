@@ -16,18 +16,20 @@ go get -u github.com/golang/dep/cmd/dep
 
 
 ## Developing 
-First, clone the project to the right path 
+1. First, clone the project to the right path 
 (e.g. ~/go/github.com/varokas/go-examples)
 
-Then Run a command to populate vendor/ folder
+2. Then Run a command to populate vendor/ folder
 ```
 dep ensure
-```
-
-```
-dep ensure -add "github.com/urfave/cli"
 ```
 
 ## Building in CI environment
 We will just build in docker to avoid fiddling with $GOPATH.
 
+## Misc
+Adding a dependencies to the vendor/ project by
+
+```
+dep ensure -add "github.com/urfave/cli"
+```
