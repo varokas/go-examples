@@ -24,6 +24,11 @@ go get -u github.com/golang/dep/cmd/dep
 dep ensure
 ```
 
+3. Run Unit Test
+```
+go test ./...
+```
+
 ## Building in CI environment
 We will just build in docker to avoid fiddling with $GOPATH.
 
